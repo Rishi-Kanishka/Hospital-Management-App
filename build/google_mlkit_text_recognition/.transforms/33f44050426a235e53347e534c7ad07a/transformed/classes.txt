@@ -1,0 +1,3 @@
+com/google_mlkit_text_recognition/GoogleMlKitTextRecognitionPlugin.class
+com/google_mlkit_text_recognition/R.class
+com/google_mlkit_text_recognition/TextRecognizer.class

@@ -1,0 +1,34 @@
+Future<void> _sendOTP() async {
+  String email = _emailController.text.trim();
+  if (!_formKey.currentState!.validate()) return;
+
+  setState(() => _isLoading = true);
+
+  try {
+    final url = Uri.parse('http://192.168.82.75:5000/send-otp');
+    final response = await http.post(
+      url,
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode({'email': email}),
+    );
+
+    if (response.statusCode == 200) {
+      print('✅ OTP sent to $email');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('OTP sent to $email')),
+      );
+    } else {
+      print('❌ Failed to send OTP: ${response.body}');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Failed to send OTP')),
+      );
+    }
+  } catch (e) {
+    print('❌ Error: $e');
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('Error occurred')),
+    );
+  } finally {
+    setState(() => _isLoading = false);
+  }
+}

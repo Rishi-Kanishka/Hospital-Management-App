@@ -1,0 +1,2 @@
+C:/Projects/ReadIt-main/android/app/.cxx/Debug/2lq1r1n4/x86/CMakeFiles/edit_cache.dir
+C:/Projects/ReadIt-main/android/app/.cxx/Debug/2lq1r1n4/x86/CMakeFiles/rebuild_cache.dir

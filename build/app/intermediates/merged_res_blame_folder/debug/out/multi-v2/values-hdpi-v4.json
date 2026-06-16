@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "br.com.raffashe.readit.app-mergeDebugResources-5:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\daksh\\.gradle\\caches\\transforms-3\\67ce6605bd30d706a4a86d4306648f51\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

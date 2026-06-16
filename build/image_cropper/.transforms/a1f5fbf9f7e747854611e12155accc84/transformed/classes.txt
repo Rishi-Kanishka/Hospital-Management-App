@@ -1,0 +1,5 @@
+vn/hunghd/flutter/plugins/imagecropper/FileUtils.class
+vn/hunghd/flutter/plugins/imagecropper/ImageCropperDelegate.class
+vn/hunghd/flutter/plugins/imagecropper/ImageCropperPlugin.class
+vn/hunghd/flutter/plugins/imagecropper/R$style.class
+vn/hunghd/flutter/plugins/imagecropper/R.class

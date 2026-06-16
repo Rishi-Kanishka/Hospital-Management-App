@@ -1,0 +1,5 @@
+com/google_mlkit_commons/GenericModelManager.class
+com/google_mlkit_commons/GoogleMlKitCommonsPlugin.class
+com/google_mlkit_commons/InputImageConverter.class
+com/google_mlkit_commons/IsModelDownloaded.class
+com/google_mlkit_commons/R.class
